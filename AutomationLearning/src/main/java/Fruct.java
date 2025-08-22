@@ -45,6 +45,8 @@ public class Fruct {
     public void setGreutateFruct(java.lang.String greutateFruct) {
         this.greutateFruct = greutateFruct;
     }
+
+    //new line
 }
 
 
