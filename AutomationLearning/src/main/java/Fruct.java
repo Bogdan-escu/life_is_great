@@ -54,7 +54,7 @@ public class Fruct {
         return greutateFruct;
     }
 
-    //new line
+    //comment Diana
 }
 
 
