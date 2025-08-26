@@ -14,39 +14,47 @@ public class Fruct {
         return numeFruct;
     }
 
-    public java.lang.String getTextureFruct() {
-        return textureFruct;
+    public void setCuloareFruct(String culoareFruct){
+        this.culoareFruct = culoareFruct;
+    }
+
+    public String getCuloareFruct(){
+        return culoareFruct;
     }
 
     public void setTextureFruct(java.lang.String textureFruct) {
         this.textureFruct = textureFruct;
     }
 
-    public java.lang.String getGustFruct() {
-        return gustFruct;
+    public java.lang.String getTextureFruct() {
+        return textureFruct;
     }
 
     public void setGustFruct(java.lang.String gustFruct) {
         this.gustFruct = gustFruct;
     }
 
-    public java.lang.String getMirosFruct() {
-        return mirosFruct;
+    public java.lang.String getGustFruct() {
+        return gustFruct;
     }
 
     public void setMirosFruct(java.lang.String mirosFruct) {
         this.mirosFruct = mirosFruct;
     }
 
-    public java.lang.String getGreutateFruct() {
-        return greutateFruct;
+    public java.lang.String getMirosFruct() {
+        return mirosFruct;
     }
 
     public void setGreutateFruct(java.lang.String greutateFruct) {
         this.greutateFruct = greutateFruct;
     }
 
-    //new line
+    public java.lang.String getGreutateFruct() {
+        return greutateFruct;
+    }
+
+    //comment Diana
 }
 
 
