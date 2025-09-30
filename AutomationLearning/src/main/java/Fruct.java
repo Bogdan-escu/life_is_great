@@ -6,6 +6,7 @@ public class Fruct {
     private String gustFruct;
     private String mirosFruct;
     private String greutateFruct;
+    private String formaFruct;
 
     public void setNumeFruct(String mar){
         this.numeFruct = mar;
@@ -23,36 +24,44 @@ public class Fruct {
         return culoareFruct;
     }
 
-    public void setTexturaFruct(java.lang.String texturaFruct) {
+    public void setTexturaFruct(String texturaFruct) {
         this.texturaFruct = texturaFruct;
     }
 
-    public java.lang.String getTexturaFruct() {
+    public String getTexturaFruct() {
         return texturaFruct;
     }
 
-    public void setGustFruct(java.lang.String gustFruct) {
+    public void setGustFruct(String gustFruct) {
         this.gustFruct = gustFruct;
     }
 
-    public java.lang.String getGustFruct() {
+    public String getGustFruct() {
         return gustFruct;
     }
 
-    public void setMirosFruct(java.lang.String mirosFruct) {
+    public void setMirosFruct(String mirosFruct) {
         this.mirosFruct = mirosFruct;
     }
 
-    public java.lang.String getMirosFruct() {
+    public String getMirosFruct() {
         return mirosFruct;
     }
 
-    public void setGreutateFruct(java.lang.String greutateFruct) {
+    public void setGreutateFruct(String greutateFruct) {
         this.greutateFruct = greutateFruct;
     }
 
-    public java.lang.String getGreutateFruct() {
+    public String getGreutateFruct() {
         return greutateFruct;
+    }
+
+    public void setformaFruct(String formaFruct){
+        this.formaFruct = formaFruct;
+    }
+
+    public String getFormaFruct() {
+        return formaFruct;
     }
 }
 
