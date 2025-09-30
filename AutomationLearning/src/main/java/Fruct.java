@@ -2,7 +2,7 @@ public class Fruct {
 
     private String numeFruct;
     private String culoareFruct;
-    private String textureFruct;
+    private String texturaFruct;
     private String gustFruct;
     private String mirosFruct;
     private String greutateFruct;
@@ -10,6 +10,7 @@ public class Fruct {
     public void setNumeFruct(String mar){
         this.numeFruct = mar;
     }
+
     public String getNumeFruct(){
         return numeFruct;
     }
@@ -22,12 +23,12 @@ public class Fruct {
         return culoareFruct;
     }
 
-    public void setTextureFruct(java.lang.String textureFruct) {
-        this.textureFruct = textureFruct;
+    public void setTexturaFruct(java.lang.String texturaFruct) {
+        this.texturaFruct = texturaFruct;
     }
 
-    public java.lang.String getTextureFruct() {
-        return textureFruct;
+    public java.lang.String getTexturaFruct() {
+        return texturaFruct;
     }
 
     public void setGustFruct(java.lang.String gustFruct) {
@@ -53,8 +54,6 @@ public class Fruct {
     public java.lang.String getGreutateFruct() {
         return greutateFruct;
     }
-
-    //comment Diana
 }
 
-
+//commit branchDiana2
